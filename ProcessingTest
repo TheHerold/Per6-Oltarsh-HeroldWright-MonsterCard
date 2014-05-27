@@ -35,4 +35,7 @@ void draw(){
   //shape(stars);
 }
 
+void exit(){
+  super.exit();
+}
 
