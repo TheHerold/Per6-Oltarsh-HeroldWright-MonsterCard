@@ -1,0 +1,16 @@
+Plan:
+basic structure:
+Turn based card game, so, decks, cards, and a turn by turn sequence.
+Each turn has a draw card, then a optional place card, 
+then an optional attack (inbuilt defence?), then it moves on to the nextplayer/ai(?)
+-------------------------
+Turn:
+clicking runs a DrawCard function, which moves a card to the hand. (using a processing mouse clicked event)
+
+clicking on a card plays it (Need part of board designated hand) 
+
+clicking on a card played causes it to accack the card infront (above) of it (This should be easier then having 
+it attack selected monster) 
+
+clicking an end button causes it to go to the other side.
+--------------------------------------
