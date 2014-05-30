@@ -14,3 +14,17 @@ it attack selected monster)
 
 clicking an end button causes it to go to the other side.
 --------------------------------------
+Board:
+Four "zones" (different colored backgrounds I assume)
+Goes: 
+
+Hand-Player1Side-Player2Side-Hand
+(   )---|---(   )
+(   )---|---(   )
+(   )---|---(   )
+(   )---|---(   )
+
+cards pulled from off screen, (Need list of card images, to load in to processing)
+cards placed on hand (follow mouse until clicked)
+Board static otherwise
+------------------------------------
