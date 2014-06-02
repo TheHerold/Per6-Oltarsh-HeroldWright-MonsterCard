@@ -9,7 +9,7 @@ clicking runs a DrawCard function, which moves a card to the hand. (using a proc
 
 clicking on a card plays it (Need part of board designated hand) 
 
-clicking on a card played causes it to accack the card infront (above) of it (This should be easier then having 
+clicking on a card played causes it to attack the card in front (above) of it (This should be easier then having 
 it attack selected monster) 
 
 clicking an end button causes it to go to the other side.
