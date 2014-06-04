@@ -1,7 +1,7 @@
 void setup ()
 {
   background (255);
-  size (225,225);
+  size (500,500);
   board();
 }
 
@@ -30,7 +30,7 @@ void block (int x , int y , int s )
 
 void row (int x , int y , int s )
 {
-  for ( int i = 0 ; i < 3 ; i ++)
+  for ( int i = 0 ; i < 4 ; i ++)
   {
     block ( x , y , s);
     x += (s*2);
@@ -42,34 +42,22 @@ void cellArray ( int x , int y , int s)
   for (int i = 0 ; i < 3 ; i ++)
   {
     row ( x , y , s);
-    y += (s*2);
+    y += (s*1);
 
   }
 }
 
-void drawLines ( int x , int y , int s)
+void darwLines ( int x , int y , int s)
 {
-  strokeWeight (3);
-
-  for (int i = 0 ; i < 4 ; i ++)
-  {
-    x += (s*2);
-    line ( x , 0 , x , (s*4));
-  }
-
-  for ( int j = 0 ; j < 4 ; j ++)
-  {
-    y += (s*2);
-    line ( 0 , y , (s*4) , y );
-  }
+ 
 
   strokeWeight (1);
 }
 
 void board ()
 {
-  cellArray (0,0,30);
-  drawLines (0,0,30);
+  cellArray (0,0,100);
+  darwLines (0,0,30);
 }
 
 void draw ()
