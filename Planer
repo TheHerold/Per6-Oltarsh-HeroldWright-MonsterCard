@@ -28,6 +28,17 @@ cards pulled from off screen, (Need list of card images, to load in to processin
 cards placed on hand (follow mouse until clicked)
 Board static otherwise
 ------------------------------------
+Deck:
+Common deck for both players
+RNG determines what card is drawn by each player
+RNG determins what PShape the image is drawing from
+
 Monsters with good attack
 Monsters with good defense
 Boss cards, rare
+
+
+
+
+
+
