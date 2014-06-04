@@ -74,7 +74,7 @@ void draw ()
 /*------------------------------------------------------------------------------------------*/
 void mouseClicked ()
 {
-  int s = 30 ; 
+  int s = 100 ; 
   int cellX = mouseX / s;
   int cellY = mouseY / s;
 
