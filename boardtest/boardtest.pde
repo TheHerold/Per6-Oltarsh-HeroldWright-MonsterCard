@@ -47,7 +47,7 @@ void cellArray ( int x , int y , int s)
   }
 }
 
-void darwLines ( int x , int y , int s)
+void drawLines ( int x , int y , int s)
 {
   strokeWeight (3);
 
@@ -69,7 +69,7 @@ void darwLines ( int x , int y , int s)
 void board ()
 {
   cellArray (0,0,30);
-  darwLines (0,0,30);
+  drawLines (0,0,30);
 }
 
 void draw ()
