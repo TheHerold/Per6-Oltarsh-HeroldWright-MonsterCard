@@ -31,8 +31,8 @@ Board static otherwise
 Deck:
 Common deck for both players
 RNG determines what card is drawn by each player
-RNG determins what PShape the image is drawing from
-
+RNG determins what PImage the image is drawing from
+Load in image as its called
 Monsters with good attack
 Monsters with good defense
 Boss cards, rare
