@@ -1,4 +1,4 @@
 public class Deck{
- private Card[] data;
+  Card[] data;
  
 }
