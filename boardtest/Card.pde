@@ -2,23 +2,34 @@ public class Card{
  PImage img;
  int attack,defense;
  
- public Card(String src){
+ Card(String src){
     img = loadImage(src);
  }
  
- public Card(String src, int a, int d){
+ Card(String src, int a, int d){
     this(src);
     attack = a;
     defense = d;
  } 
  
- public setAttack(int a){
+ void setAttack(int a){
    attack = a;
  }
  
- public setDefense(int d){
+ void setDefense(int d){
   defense = d;
  }
   
+ int getAttack(){
+   return attack;
+ }
+
+  int getDefense(){
+    return defense;
+  }
+  
+ int doAttack(Card c){
+   return 1;
+ }
  
 }
