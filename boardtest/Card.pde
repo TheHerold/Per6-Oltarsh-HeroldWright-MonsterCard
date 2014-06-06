@@ -28,8 +28,13 @@ public class Card{
     return defense;
   }
   
- int doAttack(Card c){
-   return 1;
+ boolean doAttack(Card c){
+   if(getAttack()>c.getDefense()){
+   return true;
+   }else{
+   return false;
+   }
+  
  }
  
 }
