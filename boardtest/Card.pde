@@ -1,38 +1,38 @@
 public class Card{
- PImage img;
- int attack,defense;
+ private PImage img;
+ private int attack,defense;
  
- Card(String src){
+ public Card(String src){
     img = loadImage(src);
  }
  
- Card(String src, int a, int d){
+ public Card(String src, int a, int d){
     this(src);
     attack = a;
     defense = d;
  } 
  
- void setAttack(int a){
+ public void setAttack(int a){
    attack = a;
  }
  
- void setDefense(int d){
+ public void setDefense(int d){
   defense = d;
  }
   
- int getAttack(){
+ public int getAttack(){
    return attack;
  }
 
-  int getDefense(){
+  public int getDefense(){
     return defense;
   }
   
- boolean doAttack(Card c){
+ public boolean doAttack(Card c){
    if(getAttack()>c.getDefense()){
-   return true;
+     return true;
    }else{
-   return false;
+     return false;
    }
   
  }
