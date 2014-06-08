@@ -1,3 +1,6 @@
+Deck data;
+Hand playerH,compH;
+
 void setup ()
 {
   background (255);
