@@ -6,6 +6,9 @@ void setup ()
   background (255);
   size (500,500);
   board();
+  data = new Deck();
+  playerH =  new Hand(data);
+  compH = new Hand(data);
 }
 
 void cell (int x , int y , int s )
