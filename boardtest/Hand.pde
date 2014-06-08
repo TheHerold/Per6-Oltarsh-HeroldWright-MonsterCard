@@ -15,4 +15,10 @@ public class Hand{
        } 
     }
   }
+  
+  public Card play(int i){
+    Card output = data[i];
+    data[i] = null;
+    return output;
+  }
 }
