@@ -1,0 +1,33 @@
+Plan:
+basic structure:
+Turn based card game, so, decks, cards, and a turn by turn sequence.
+Each turn has a draw card, then a optional place card, 
+then an optional attack (inbuilt defence?), then it moves on to the nextplayer/ai(?)
+-------------------------
+Turn:
+clicking runs a DrawCard function, which moves a card to the hand. (using a processing mouse clicked event)
+
+clicking on a card plays it (Need part of board designated hand) 
+
+clicking on a card played causes it to attack the card in front (above) of it (This should be easier then having 
+it attack selected monster) 
+
+clicking an end button causes it to go to the other side.
+--------------------------------------
+Board:
+Four "zones" (different colored backgrounds I assume)
+Goes: 
+
+Hand-Player1Side-Player2Side-Hand
+(   )---|---(   )
+(   )---|---(   )
+(   )---|---(   )
+(   )---|---(   )
+
+cards pulled from off screen, (Need list of card images, to load in to processing)
+cards placed on hand (follow mouse until clicked)
+Board static otherwise
+------------------------------------
+Monsters with good attack
+Monsters with good defense
+Boss cards, rare
