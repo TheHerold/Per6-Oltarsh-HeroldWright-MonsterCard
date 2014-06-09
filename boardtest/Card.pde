@@ -28,6 +28,10 @@ public class Card{
     return defense;
   }
   
+  public PImage getImage(){
+    return img;
+  }
+  
  public boolean doAttack(Card c){
    if(getAttack()>c.getDefense()){
      return true;

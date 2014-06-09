@@ -1,3 +1,6 @@
+import java.util.*;
+import java.io.*;
+
 public class Hand{
  private Card[] data;
  private Deck source;
@@ -17,8 +20,12 @@ public class Hand{
   }
   
   public Card play(int i){
+    try{
     Card output = data[i];
     data[i] = null;
     return output;
+    }catch(NullPointerException e){
+      return null;
+    }
   }
 }

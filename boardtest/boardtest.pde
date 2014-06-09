@@ -66,11 +66,16 @@ void board ()
   darwLines (0,0,30);
 }
 
+void displayHand(){
+  
+}
+
 void draw ()
 {
    int [][] fixedArray = new int [4][4];
    fill (0);
    textSize(28);
+   displayHand();
  
   if (mousePressed)
   {
