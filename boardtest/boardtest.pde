@@ -70,7 +70,12 @@ void displayHand(){
   
 }
 
-Card c = new Card("/Users/alexanderoltarsh/Images/wizard.jpg");
+void loadCards(){
+ Card a,b,c;
+ a = new Card("Images/wizard.jpg");
+ b = new Card("Images/Croc.jpg");
+ c = new Card("Images/Candle.jpg");
+}
 
 void draw ()
 {
