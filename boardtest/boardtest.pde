@@ -7,8 +7,10 @@ void setup ()
   size (500,500);
   board();
   data = new Deck();
+  loadCards();
   playerH =  new Hand(data);
   compH = new Hand(data);
+  
 }
 
 void cell (int x , int y , int s )
@@ -75,6 +77,9 @@ void loadCards(){
  a = new Card("Images/wizard.jpg");
  b = new Card("Images/Croc.jpg");
  c = new Card("Images/Candle.jpg");
+ data.add(a);
+ data.add(b);
+ data.add(c);
 }
 
 void draw ()
