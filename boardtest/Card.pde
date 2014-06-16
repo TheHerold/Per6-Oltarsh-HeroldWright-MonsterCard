@@ -3,7 +3,7 @@ public class Card{
  private int attack,defense;
  
  public Card(String src){
-    img = loadImage(src);
+    img = loadImage(src,"jpg");
  }
  
  public Card(String src, int a, int d){
@@ -30,6 +30,10 @@ public class Card{
   
   public PImage getImage(){
     return img;
+  }
+  
+  public void displayCard(int x, int y){
+    image(img,x,y,100,100);
   }
   
  public boolean doAttack(Card c){

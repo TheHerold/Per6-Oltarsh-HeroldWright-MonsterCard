@@ -70,6 +70,8 @@ void displayHand(){
   
 }
 
+Card c = new Card("/Users/alexanderoltarsh/Images/wizard.jpg");
+
 void draw ()
 {
    int [][] fixedArray = new int [4][4];
@@ -204,4 +206,5 @@ void mouseClicked ()
 
     }//end of the inner loop.
   }//end of the outter for loop.
+  
 }
